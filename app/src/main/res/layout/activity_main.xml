@@ -9,10 +9,11 @@
 
     <Button
         android:id="@+id/button_toast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
         android:layout_marginTop="172dp"
         android:background="#3F51B5"
+        android:onClick="borrarContador"
         android:text="Toast"
         android:textAllCaps="true"
         android:textColor="#FFEB3B"
@@ -23,8 +24,8 @@
 
     <TextView
         android:id="@+id/show_count"
-        android:layout_width="291dp"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="270dp"
         android:layout_marginTop="16dp"
         android:background="#FFEB3B"
         android:gravity="center"
@@ -41,12 +42,13 @@
 
     <Button
         android:id="@+id/button_count"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:background="#3F51B5"
+        android:onClick="sumarContador"
         android:text="Count"
         android:textColor="#FFEB3B"
         android:textSize="24sp"
